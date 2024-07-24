@@ -1,0 +1,24 @@
+/*
+With CSS the document is read from top to bottom.
+So whatever is on the bottom takes the highest priority.
+I am going to say then that all of my media queries should be at the bottom of the page.
+*/
+
+
+/*
+This is the default header text color.
+*/
+h1{
+    color: red;
+}
+
+/*
+This media query will change the color of the header text
+from red to blue when the screen size drops below the 
+600px screen size.
+*/
+@media(max-width: 600px){
+    h1{
+        color: blue;
+    }
+}
